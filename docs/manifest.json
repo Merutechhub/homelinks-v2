@@ -1,0 +1,77 @@
+{
+  "name": "Homelink",
+  "short_name": "Homelink",
+  "description": "University student housing, marketplace, and dining ecosystem",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6b54ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["lifestyle", "shopping"],
+  "shortcuts": [
+    {
+      "name": "What can I eat?",
+      "short_name": "Budget Bite",
+      "description": "Find meals within your budget",
+      "url": "/budget-bite",
+      "icons": [
+        {
+          "src": "/shortcut-budget-bite.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Find Housing",
+      "short_name": "Housing",
+      "description": "Browse nearby housing",
+      "url": "/housing",
+      "icons": [
+        {
+          "src": "/shortcut-housing.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
